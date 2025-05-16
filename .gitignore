@@ -1,0 +1,11 @@
+/build/
+/cache/
+/dist/
+/bubblequack-ggj2025.zip
+
+*.bak
+*.sav
+!assets/sounds/*.sav
+*.icloud
+
+user_settings.gbsres
