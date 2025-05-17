@@ -64,6 +64,16 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "5d1a1259-957a-4f81-9d47-57b30ef81475"
     }
   ],
   "playerHit1Script": [],

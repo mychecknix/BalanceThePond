@@ -1,23 +1,23 @@
 {
   "_resourceType": "trigger",
-  "id": "6e91d9d3-3172-41b8-9b4b-f78e75988e24",
+  "id": "2f3e8c8d-27af-4e24-9803-f0254c7b9b70",
   "name": "",
   "prefabId": "",
-  "x": 14,
+  "x": 16,
   "y": 32,
-  "symbol": "trigger_9",
+  "symbol": "trigger_2",
   "prefabScriptOverrides": {},
-  "width": 2,
+  "width": 1,
   "height": 4,
   "script": [
     {
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
-        "spriteSheetId": "2f60575a-448d-4e38-9199-5830cebfcf10"
+        "spriteSheetId": "86457d64-a248-4ef5-8212-621c5b4c0ea0"
       },
-      "id": "e8b0f7d1-8666-4597-bc16-f232a2552e6f"
+      "id": "6be7e2f9-89ec-4fad-a480-926f21fbffa7"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 3
 }

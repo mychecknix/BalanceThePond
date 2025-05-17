@@ -65,6 +65,11 @@
       "id": "12",
       "name": "PushedIceBlock",
       "symbol": ""
+    },
+    {
+      "id": "13",
+      "name": "isWalking",
+      "symbol": "var_iswalking"
     }
   ]
 }
