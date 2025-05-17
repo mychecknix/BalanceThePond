@@ -1,0 +1,128 @@
+{
+  "_resourceType": "sprite",
+  "id": "f2a77181-70f9-40ed-84d6-e4b7b24b74dd",
+  "name": "Gartenschlauch",
+  "symbol": "sprite_gartenschlauch",
+  "numFrames": 1,
+  "filename": "Gartenschlauch.png",
+  "checksum": "903b1d1a617531050c476b37f3ec1034e6c51f6e",
+  "width": 16,
+  "height": 16,
+  "states": [
+    {
+      "id": "7a3828d3-9b28-4c05-95f1-7a78a006895b",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "50b3af20-2b8d-4ff7-9fba-f017d87f1d66",
+          "frames": [
+            {
+              "id": "7b606fdb-8267-4a7c-8ec3-ba1c94daa558",
+              "tiles": [
+                {
+                  "id": "669fbc05-60be-4cd0-b298-39e0c9789884",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "f3c0a7dd-143e-45fd-a76c-ea2d83cca3a5",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1f6d8445-bde4-440f-ba9f-3daff816d3de",
+          "frames": [
+            {
+              "id": "6988e1b2-b6dc-4ec6-8539-da64fc396ab3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "60d6f9de-8bdc-4003-b3a0-22707d070bab",
+          "frames": [
+            {
+              "id": "a87c2012-7d04-4757-a73e-bce245dc4723",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "55eed544-71e9-423e-9b8b-4031a31202e1",
+          "frames": [
+            {
+              "id": "5de61254-5ab8-455a-91a7-0e96c4af3246",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "69cb5969-7b1e-4f03-a4d9-ddccd8796684",
+          "frames": [
+            {
+              "id": "1cbd427a-75fc-4856-a30c-3eee1f537e32",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6e937e57-62d0-4185-8a54-2750a1da64fd",
+          "frames": [
+            {
+              "id": "b79d33bd-f7f1-4b10-9366-6ec1ba03c1c3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "218ff43c-0d4b-4756-93d7-a03a769f67ed",
+          "frames": [
+            {
+              "id": "d541d8b2-733c-49ea-8515-c16eae4901ac",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d003ea80-6ccb-4384-b42a-27f95b5323a8",
+          "frames": [
+            {
+              "id": "c71a23e3-d997-4a2f-b13b-1c733a577a80",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

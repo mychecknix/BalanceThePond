@@ -46,75 +46,20 @@
       "children": {
         "true": [
           {
-            "id": "44762258-56af-44bd-abea-f0b9358bc514",
-            "command": "EVENT_CHOICE",
+            "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "variable": "10",
-              "trueText": "New Game",
-              "falseText": "Continue"
-            }
-          },
-          {
-            "id": "9e757f17-62ae-4fb5-990f-a9d337d7f07d",
-            "command": "EVENT_IF",
-            "args": {
-              "variable": "10",
-              "__collapse": false,
-              "__collapseElse": false,
-              "condition": {
-                "type": "variable",
-                "value": "10"
-              }
-            },
-            "children": {
-              "true": [
-                {
-                  "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
-                  "command": "EVENT_SWITCH_SCENE",
-                  "args": {
-                    "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
-                    "x": {
-                      "type": "number",
-                      "value": 15
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 45
-                    },
-                    "direction": "up",
-                    "fadeSpeed": "4"
-                  }
-                }
-              ],
-              "false": [
-                {
-                  "id": "d2cd5812-f043-4aa5-b827-475dc79091e7",
-                  "command": "EVENT_IF_SAVED_DATA",
-                  "args": {
-                    "saveSlot": 0
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "id": "4a922761-48a9-410d-b603-00e7a7dd91ea",
-                        "command": "EVENT_LOAD_DATA",
-                        "args": {
-                          "saveSlot": 0
-                        }
-                      }
-                    ],
-                    "false": [
-                      {
-                        "id": "06b8f464-996e-4c51-8918-50d62bb0c02d",
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": "No Save Data\nFound..."
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
+              "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+              "x": {
+                "type": "number",
+                "value": 28
+              },
+              "y": {
+                "type": "number",
+                "value": 29
+              },
+              "direction": "up",
+              "fadeSpeed": "4"
             }
           }
         ]
@@ -124,5 +69,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "",
+  "playerSpriteSheetId": "d433daeb-aba5-43ab-bf19-61ba2cc2a86c"
 }

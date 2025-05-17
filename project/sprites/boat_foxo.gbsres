@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "e66dfeba-7eb8-46f9-a4d0-147a6fdb6d7c",
+  "name": "boat foxo",
+  "symbol": "sprite_boat_foxo",
+  "numFrames": 6,
+  "filename": "boat foxo.png",
+  "checksum": "91ec5b6ff515617a4caa402852986e358dc16d2a",
+  "width": 96,
+  "height": 32,
+  "states": [
+    {
+      "id": "378b08ec-46a2-45f2-8649-e6fd020bdbbf",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "db0ee022-d1c8-450e-90fa-04067b2095cf",
+          "frames": [
+            {
+              "id": "ee08c691-bc72-43d9-b0a7-ebdd64c8719a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5bb8db4a-bd2b-47f3-ba26-ff9b8cbfc95f",
+          "frames": [
+            {
+              "id": "de26cce7-858b-4554-b768-cb10f1d064db",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c590fea9-e014-4771-a177-dcfbcaf56bc2",
+          "frames": [
+            {
+              "id": "5b567252-c391-4c02-9073-f82ddb7f248f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5598c6fd-4b08-4e41-ae66-8c81550f75d8",
+          "frames": [
+            {
+              "id": "b285b334-10bc-4221-ae8e-a4fc9d751a16",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "068b086b-4cc7-44ab-91a6-eba4d130c3ea",
+          "frames": [
+            {
+              "id": "eb231ed9-cce6-4408-897c-dbdc40f5c6a8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "940e237f-449c-47ab-917f-97ba6b0c38f0",
+          "frames": [
+            {
+              "id": "eddf0688-54d0-4a82-bd84-47d9d1deff5a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6ab0ee8a-6d4c-4caf-a4bd-deae55fc4dd0",
+          "frames": [
+            {
+              "id": "b423a01c-00b1-4484-9fa6-1c45bfd2ecc3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0a6ad065-5a54-43a3-879d-282f748dc760",
+          "frames": [
+            {
+              "id": "569ee20f-5fc0-4cb6-8927-9b3f4e2d228e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}
