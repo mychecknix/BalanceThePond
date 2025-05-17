@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.2" name="PondMapSprites" tilewidth="16" tileheight="16" tilecount="6" columns="0">
+<tileset version="1.10" tiledversion="1.11.2" name="PondMapSprites" tilewidth="16" tileheight="16" tilecount="19" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0">
   <image source="sprites/pond-edge-horizontal.png" width="16" height="16"/>
@@ -18,5 +18,44 @@
  </tile>
  <tile id="5">
   <image source="sprites/Sprite-Rand.png" width="16" height="16"/>
+ </tile>
+ <tile id="6">
+  <image source="sprites/Blatt.png" width="16" height="16"/>
+ </tile>
+ <tile id="7">
+  <image source="sprites/Blume.png" width="16" height="16"/>
+ </tile>
+ <tile id="8">
+  <image source="sprites/Blumen.png" width="16" height="16"/>
+ </tile>
+ <tile id="9">
+  <image source="sprites/Blumen1.png" width="16" height="16"/>
+ </tile>
+ <tile id="10">
+  <image source="sprites/Ecke.png" width="16" height="16"/>
+ </tile>
+ <tile id="11">
+  <image source="sprites/Gartenschlauch.png" width="16" height="16"/>
+ </tile>
+ <tile id="12">
+  <image source="sprites/Gartenschlauch2.png" width="16" height="16"/>
+ </tile>
+ <tile id="13">
+  <image source="sprites/Gartenschlauch3.png" width="16" height="16"/>
+ </tile>
+ <tile id="14">
+  <image source="sprites/Gras.png" width="16" height="16"/>
+ </tile>
+ <tile id="15">
+  <image source="sprites/Grashalm.png" width="16" height="16"/>
+ </tile>
+ <tile id="16">
+  <image source="sprites/Muell.png" width="16" height="16"/>
+ </tile>
+ <tile id="17">
+  <image source="sprites/Sprite-Wasser.png" width="16" height="16"/>
+ </tile>
+ <tile id="18">
+  <image source="sprites/Wasser.png" width="16" height="16"/>
  </tile>
 </tileset>
