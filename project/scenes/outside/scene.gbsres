@@ -7,14 +7,14 @@
   "symbol": "scene_outside",
   "x": 296,
   "y": 40,
-  "width": 50,
-  "height": 50,
-  "backgroundId": "9cbebc51-f5e8-40f1-aa56-747bc254a10f",
+  "width": 60,
+  "height": 60,
+  "backgroundId": "161c064e-fdc5-463c-ba4a-850bfa8ac338",
   "tilesetId": "",
   "paletteIds": [
     "",
     "dmg",
-    "",
+    "default-bg-4",
     "",
     "",
     "default-bg-4"
@@ -38,5 +38,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "009c4+"
+  "collisions": "00392+0f1c+001f+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001d+0f!001d+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001d+0f!001d+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001e+0f!001c+0f!001f+0f7+006+0f7+002+0f6+0027+0f!004+0f!0037+0f4+00586+"
 }

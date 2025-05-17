@@ -1,18 +1,18 @@
 {
   "_resourceType": "actor",
-  "id": "abf9e863-28c0-4c03-bd4f-201ed2a055c2",
+  "id": "e63a0fb5-2d9e-4a85-9ba0-e711e6de6cdc",
   "_index": 0,
-  "symbol": "actor_0",
+  "symbol": "actor_1",
   "prefabId": "",
   "name": "",
-  "x": 25,
-  "y": 14,
+  "x": 16,
+  "y": 41,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
+  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
   "paletteId": "",
   "direction": "down",
-  "moveSpeed": 0.5,
+  "moveSpeed": 1,
   "animSpeed": 15,
   "isPinned": false,
   "persistent": false,
@@ -20,10 +20,10 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "5277ceed-f26c-4644-9dee-b7d090a4ebb9",
-      "command": "EVENT_ACTOR_PUSH",
+      "id": "149845e1-e0b4-4a2e-97e3-4a59c8bc2634",
+      "command": "EVENT_TEXT",
       "args": {
-        "continue": false
+        "text": "Welcome to\nGBStudio!"
       }
     }
   ],
