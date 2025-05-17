@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "19e276df-dfa6-4d78-b402-23a1bdc37023",
+  "name": "grass",
+  "symbol": "tileset_grass",
+  "width": 2,
+  "height": 2,
+  "imageWidth": 16,
+  "imageHeight": 16,
+  "filename": "grass.png"
+}

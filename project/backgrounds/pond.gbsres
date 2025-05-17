@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9cbebc51-f5e8-40f1-aa56-747bc254a10f",
+  "name": "Pond",
+  "symbol": "bg_pond",
+  "width": 50,
+  "height": 50,
+  "imageWidth": 400,
+  "imageHeight": 400,
+  "filename": "Pond.png",
+  "tileColors": ""
+}

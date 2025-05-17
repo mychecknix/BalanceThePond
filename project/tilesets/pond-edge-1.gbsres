@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "07a22083-116d-4240-a338-624bc3bedffd",
+  "name": "pond-edge-1",
+  "symbol": "tileset_pond_edge_1",
+  "width": 2,
+  "height": 2,
+  "imageWidth": 16,
+  "imageHeight": 16,
+  "filename": "pond-edge-1.png"
+}
