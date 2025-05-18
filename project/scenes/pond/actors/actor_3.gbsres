@@ -20,10 +20,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "..."
+          "Geh du nur, geh\nnur fort, such\ndir einen\nanderen Ort."
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "a6d3a2d1-fb6d-4961-ae15-369d4caffd7e",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,

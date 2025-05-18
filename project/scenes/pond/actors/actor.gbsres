@@ -24,7 +24,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Keep the pond\nclean!"
+          "Das die Chance:\nHalte den See\nin Balance!"
         ],
         "__section": "text",
         "avatarId": ""

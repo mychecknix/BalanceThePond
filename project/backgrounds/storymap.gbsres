@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 320,
   "filename": "StoryMap.png",
-  "tileColors": "06320+"
+  "tileColors": "06320+",
+  "autoColor": false
 }

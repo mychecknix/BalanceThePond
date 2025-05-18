@@ -1,37 +1,30 @@
 {
   "_resourceType": "actor",
-  "id": "13a3a848-957c-45f5-b3f7-727ca2990e60",
+  "id": "5fffff91-3601-4117-b057-29a7590df786",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "b4ed8bad-4e27-418d-9f3d-e1abc2893172",
+  "spriteSheetId": "6140fe84-0400-42fb-972c-1de0bd4a0daa",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 31,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_11",
   "script": [
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "603fd18d-674c-4360-9f57-5fb4b935b442"
-      },
-      "id": "243ab8b5-5244-427f-95db-a49dc0d56fc3"
-    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Die Sonne\nscheint mir ins\nGesicht, das mag\nich nicht!"
+          "Dachtest du,\nmich gibt es\nnicht?",
+          "Hier schwimme ich,\nein Gedicht!\n"
         ],
         "__section": "text",
-        "avatarId": "cbbbf192-6723-47fe-8b1b-67fa804ad165",
+        "avatarId": "32377b11-51af-4d0a-9ef8-c93a20d190b1",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -47,24 +40,15 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "d0ed7909-4157-4299-be96-95262de941c9"
+      "id": "d1fbad30-4050-4463-b2d8-14a2f914686b"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "01da2ac5-b5d8-4366-b82a-c7edd487856d"
-      },
-      "id": "e3ff49e8-37ce-4f4e-8f66-387c98b601a8"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 37,
-  "y": 26,
-  "_index": 3
+  "x": 17,
+  "y": 21,
+  "_index": 11
 }

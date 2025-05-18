@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "19c27382-f921-4182-a555-bde9695588d7",
+  "spriteSheetId": "228e21ca-8387-4caa-98f7-bd65754aa654",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -17,29 +17,67 @@
   "symbol": "actor_0",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Brb brb..."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "14"
+          }
+        },
+        "__collapseElse": true
       },
-      "id": "5bd5351b-2f22-4fd5-83f8-7adb7224a416"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Fuchs, Fuchs,\nwas kannst du tun?",
+                "Ich kann nicht\nruh`n.",
+                "Fort muss der Müll\nSag das schnell:"
+              ],
+              "__section": "text",
+              "avatarId": "032941a7-2123-4924-8020-d8f353bc0c09",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cd2e1780-94ff-46fe-9f36-ea9c286a1eef"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "14",
+              "trueText": "Ja",
+              "falseText": "Nein"
+            },
+            "id": "e43a20c6-6b10-4c58-af0f-84b4fc2a6b53"
+          }
+        ],
+        "false": []
+      },
+      "id": "1683e1da-f483-4dd5-81bf-1912623c8a76"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+      },
+      "id": "b07980b2-cb02-4d91-bf4f-ff1a1451bd0b"
     }
   ],
   "startScript": [],
@@ -47,7 +85,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
-  "y": 45,
+  "x": 17,
+  "y": 41,
   "_index": 1
 }

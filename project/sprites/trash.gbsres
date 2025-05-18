@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "1722a3f4-da2a-4283-9131-a3ba2d38ef3b",
-  "name": "Muell",
+  "name": "trash",
   "symbol": "sprite_muell",
   "numFrames": 1,
-  "filename": "Muell.png",
+  "filename": "trash.png",
   "checksum": "2ced26f99503997d42465f42f9db4ca8197c12d4",
   "width": 16,
   "height": 16,

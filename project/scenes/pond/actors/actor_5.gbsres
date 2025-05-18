@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "228e21ca-8387-4caa-98f7-bd65754aa654",
+  "spriteSheetId": "19c27382-f921-4182-a555-bde9695588d7",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -20,10 +20,13 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Nice day!"
+          "Kennst du das\nschon?",
+          "Baume pflanzen\nist meine\nPassion!",
+          "Die machen\ntollen Schatten.",
+          "Baum pflanzen?"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "b467d889-19bd-4a89-b710-5337aa7b89ec",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -40,6 +43,15 @@
         "closeDelayFrames": 30
       },
       "id": "08645c7b-28a3-414a-85a9-f1fafc919f46"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Ja",
+        "falseText": "Nein"
+      },
+      "id": "11d36d3f-3405-4048-86c0-22f7b64b5066"
     }
   ],
   "startScript": [],
@@ -47,7 +59,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 20,
-  "y": 41,
+  "x": 4,
+  "y": 45,
   "_index": 4
 }

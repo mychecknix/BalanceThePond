@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "13a3a848-957c-45f5-b3f7-727ca2990e60",
+  "id": "cb018aee-3930-4740-9b35-ab547ebcc6b3",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "b4ed8bad-4e27-418d-9f3d-e1abc2893172",
+  "spriteSheetId": "3a517d0a-6b1e-4eb8-af2d-8ab1dfb2b78f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,24 +14,24 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_5",
   "script": [
     {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
         "actorId": "$self$",
-        "emoteId": "603fd18d-674c-4360-9f57-5fb4b935b442"
+        "emoteId": "a12f6e9c-2bb1-4164-8d5b-4dbdda4bdceb"
       },
-      "id": "243ab8b5-5244-427f-95db-a49dc0d56fc3"
+      "id": "9012250b-a524-48e9-a493-b53a478d1b84"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Die Sonne\nscheint mir ins\nGesicht, das mag\nich nicht!"
+          "gack... gack..."
         ],
         "__section": "text",
-        "avatarId": "cbbbf192-6723-47fe-8b1b-67fa804ad165",
+        "avatarId": "c6d8d330-dade-4276-a862-d6d1871021c3",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -47,24 +47,15 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "d0ed7909-4157-4299-be96-95262de941c9"
+      "id": "18a97eb3-a7e5-45a4-82c4-81fe95cb96e2"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "01da2ac5-b5d8-4366-b82a-c7edd487856d"
-      },
-      "id": "e3ff49e8-37ce-4f4e-8f66-387c98b601a8"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 37,
-  "y": 26,
-  "_index": 3
+  "x": 31,
+  "y": 47,
+  "_index": 5
 }

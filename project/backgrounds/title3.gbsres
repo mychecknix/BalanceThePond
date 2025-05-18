@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "76a77c6d-679c-4e2e-a2f1-cc313be49b97",
-  "name": "Title2",
-  "symbol": "bg_title2",
+  "id": "7339980f-4e83-4f4a-9a2f-018fa6619d3d",
+  "name": "Title3",
+  "symbol": "bg_title3",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "Title2.png",
+  "filename": "Title3.png",
   "tileColors": "",
   "autoColor": false
 }
