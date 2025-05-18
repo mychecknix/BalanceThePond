@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "24af8bbd-2f81-4baa-aba8-8522490ff5c4",
+  "id": "c57a60fb-e9bb-4600-87a3-4c5026e800cc",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "19c27382-f921-4182-a555-bde9695588d7",
+  "spriteSheetId": "1722a3f4-da2a-4283-9131-a3ba2d38ef3b",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,44 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_4",
+  "symbol": "actor_6",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "text": [
-          "Kennst du das\nschon?",
-          "Baume pflanzen\nist meine\nPassion!",
-          "Die machen\ntollen Schatten.",
-          "Baum pflanzen?"
-        ],
-        "__section": "text",
-        "avatarId": "b467d889-19bd-4a89-b710-5337aa7b89ec",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "actorId": "$self$"
       },
-      "id": "08645c7b-28a3-414a-85a9-f1fafc919f46"
-    },
-    {
-      "command": "EVENT_CHOICE",
-      "args": {
-        "variable": "L0",
-        "trueText": "Ja",
-        "falseText": "Nein"
-      },
-      "id": "11d36d3f-3405-4048-86c0-22f7b64b5066"
+      "id": "6ce00e62-9676-4002-8817-ee3880c9a656"
     }
   ],
   "startScript": [],
@@ -59,7 +29,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
-  "y": 45,
+  "x": 12,
+  "y": 25,
   "_index": 4
 }

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "fe2c2965-2b4c-4123-80a9-d42dacd8dfa9",
+  "id": "13a3a848-957c-45f5-b3f7-727ca2990e60",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "b22c694e-87fe-49ad-9e82-8d12d23dc31c",
+  "spriteSheetId": "b4ed8bad-4e27-418d-9f3d-e1abc2893172",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,16 +14,24 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "symbol": "actor_3",
   "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "603fd18d-674c-4360-9f57-5fb4b935b442"
+      },
+      "id": "243ab8b5-5244-427f-95db-a49dc0d56fc3"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Geh du nur, geh\nnur fort, such\ndir einen\nanderen Ort."
+          "Die Sonne\nscheint mir ins\nGesicht, das mag\nich nicht!"
         ],
         "__section": "text",
-        "avatarId": "a6d3a2d1-fb6d-4961-ae15-369d4caffd7e",
+        "avatarId": "cbbbf192-6723-47fe-8b1b-67fa804ad165",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -39,15 +47,24 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "30e9ad6d-be01-4431-bf60-ae4713a39202"
+      "id": "d0ed7909-4157-4299-be96-95262de941c9"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "01da2ac5-b5d8-4366-b82a-c7edd487856d"
+      },
+      "id": "e3ff49e8-37ce-4f4e-8f66-387c98b601a8"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 3,
-  "y": 12,
+  "x": 37,
+  "y": 26,
   "_index": 2
 }

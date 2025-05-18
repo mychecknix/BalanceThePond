@@ -1,30 +1,37 @@
 {
   "_resourceType": "actor",
-  "id": "5fffff91-3601-4117-b057-29a7590df786",
+  "id": "cb018aee-3930-4740-9b35-ab547ebcc6b3",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "6140fe84-0400-42fb-972c-1de0bd4a0daa",
+  "spriteSheetId": "3a517d0a-6b1e-4eb8-af2d-8ab1dfb2b78f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 31,
+  "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_11",
+  "symbol": "actor_5",
   "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "a12f6e9c-2bb1-4164-8d5b-4dbdda4bdceb"
+      },
+      "id": "9012250b-a524-48e9-a493-b53a478d1b84"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Dachtest du,\nmich gibt es\nnicht?",
-          "Hier schwimme ich,\nein Gedicht!\n"
+          "gack... gack..."
         ],
         "__section": "text",
-        "avatarId": "32377b11-51af-4d0a-9ef8-c93a20d190b1",
+        "avatarId": "c6d8d330-dade-4276-a862-d6d1871021c3",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -40,7 +47,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "d1fbad30-4050-4463-b2d8-14a2f914686b"
+      "id": "18a97eb3-a7e5-45a4-82c4-81fe95cb96e2"
     }
   ],
   "startScript": [],
@@ -48,7 +55,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 17,
-  "y": 21,
+  "x": 32,
+  "y": 50,
   "_index": 11
 }

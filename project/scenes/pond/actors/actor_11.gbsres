@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "3d442020-618e-469d-83f6-196430fbbdb6",
+  "id": "fe2c2965-2b4c-4123-80a9-d42dacd8dfa9",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "1722a3f4-da2a-4283-9131-a3ba2d38ef3b",
+  "spriteSheetId": "b22c694e-87fe-49ad-9e82-8d12d23dc31c",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,32 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_10",
+  "symbol": "actor_2",
   "script": [
     {
-      "command": "EVENT_ACTOR_HIDE",
+      "command": "EVENT_TEXT",
       "args": {
-        "actorId": "$self$"
+        "text": [
+          "Geh du nur, geh\nnur fort, such\ndir einen\nanderen Ort."
+        ],
+        "__section": "text",
+        "avatarId": "a6d3a2d1-fb6d-4961-ae15-369d4caffd7e",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "79cd9093-1d8d-40bb-bbf4-d1f5b08dfba3"
+      "id": "30e9ad6d-be01-4431-bf60-ae4713a39202"
     }
   ],
   "startScript": [],
@@ -29,7 +47,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 40,
-  "y": 37,
+  "x": 6,
+  "y": 9,
   "_index": 10
 }

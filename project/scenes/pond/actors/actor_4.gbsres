@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "13a3a848-957c-45f5-b3f7-727ca2990e60",
+  "id": "24af8bbd-2f81-4baa-aba8-8522490ff5c4",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "b4ed8bad-4e27-418d-9f3d-e1abc2893172",
+  "spriteSheetId": "19c27382-f921-4182-a555-bde9695588d7",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,24 +14,19 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_4",
   "script": [
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "603fd18d-674c-4360-9f57-5fb4b935b442"
-      },
-      "id": "243ab8b5-5244-427f-95db-a49dc0d56fc3"
-    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Die Sonne\nscheint mir ins\nGesicht, das mag\nich nicht!"
+          "Kennst du das\nschon?",
+          "Baume pflanzen\nist meine\nPassion!",
+          "Die machen\ntollen Schatten.",
+          "Baum pflanzen?"
         ],
         "__section": "text",
-        "avatarId": "cbbbf192-6723-47fe-8b1b-67fa804ad165",
+        "avatarId": "b467d889-19bd-4a89-b710-5337aa7b89ec",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -47,24 +42,24 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "d0ed7909-4157-4299-be96-95262de941c9"
-    }
-  ],
-  "startScript": [
+      "id": "08645c7b-28a3-414a-85a9-f1fafc919f46"
+    },
     {
-      "command": "EVENT_ACTOR_EMOTE",
+      "command": "EVENT_CHOICE",
       "args": {
-        "actorId": "$self$",
-        "emoteId": "01da2ac5-b5d8-4366-b82a-c7edd487856d"
+        "variable": "L0",
+        "trueText": "Ja",
+        "falseText": "Nein"
       },
-      "id": "e3ff49e8-37ce-4f4e-8f66-387c98b601a8"
+      "id": "11d36d3f-3405-4048-86c0-22f7b64b5066"
     }
   ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 37,
-  "y": 26,
+  "x": 4,
+  "y": 45,
   "_index": 3
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.2" name="PondMapSprites" tilewidth="32" tileheight="32" tilecount="25" columns="0">
+<tileset version="1.10" tiledversion="1.11.2" name="PondMapSprites" tilewidth="32" tileheight="32" tilecount="22" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="0">
   <image source="sprites/pond-edge-horizontal.png" width="16" height="16"/>
@@ -18,12 +18,6 @@
  </tile>
  <tile id="5">
   <image source="sprites/Sprite-Rand.png" width="16" height="16"/>
- </tile>
- <tile id="6">
-  <image source="sprites/Blatt.png" width="16" height="16"/>
- </tile>
- <tile id="7">
-  <image source="sprites/Blume.png" width="16" height="16"/>
  </tile>
  <tile id="8">
   <image source="sprites/Blumen.png" width="16" height="16"/>
@@ -54,9 +48,6 @@
  </tile>
  <tile id="17">
   <image source="sprites/Sprite-Wasser.png" width="16" height="16"/>
- </tile>
- <tile id="18">
-  <image source="sprites/Wasser.png" width="16" height="16"/>
  </tile>
  <tile id="19">
   <image source="sprites/bg grass dark.png" width="16" height="16"/>
