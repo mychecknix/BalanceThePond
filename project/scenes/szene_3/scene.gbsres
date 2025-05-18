@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7ae88afa-9073-4e41-ae98-a267f27f3a1d",
+  "_index": 2,
+  "name": "Szene 3",
+  "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 60,
+  "y": 200.01883709855053,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

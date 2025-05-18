@@ -1,0 +1,5 @@
+- [ ] Sprits auf Blick nach rechts ändern
+- [ ] Titelbild
+- [ ] Szene 2 - Story Bild
+- [ ] Transparenter Hintergrund bei Background Sprits fixen
+- [ ] Kollisionen setzen
