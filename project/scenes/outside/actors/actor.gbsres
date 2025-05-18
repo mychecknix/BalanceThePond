@@ -5,8 +5,8 @@
   "symbol": "actor_1",
   "prefabId": "",
   "name": "",
-  "x": 10,
-  "y": 35,
+  "x": 27,
+  "y": 40,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -23,7 +23,11 @@
       "id": "149845e1-e0b4-4a2e-97e3-4a59c8bc2634",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Welcome to\nGBStudio!"
+        "text": [
+          "Keep the pond\nclean!"
+        ],
+        "__section": "text",
+        "avatarId": ""
       }
     }
   ],

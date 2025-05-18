@@ -2,12 +2,12 @@
   "_resourceType": "sprite",
   "id": "86457d64-a248-4ef5-8212-621c5b4c0ea0",
   "name": "BoatFoxo2",
-  "width": 288,
-  "height": 32,
-  "filename": "BoatFoxo2.png",
   "symbol": "sprite_boatfoxo2",
   "numFrames": 18,
+  "filename": "BoatFoxo2.png",
   "checksum": "3200ea236ceaba118e174ca1908916f467514e33",
+  "width": 288,
+  "height": 32,
   "states": [
     {
       "id": "638929a0-81d0-48ce-91b4-26532d82fc74",
