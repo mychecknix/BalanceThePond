@@ -1,5 +1,6 @@
 - [ ] Sprits auf Blick nach rechts ändern
 - [ ] Titelbild
 - [ ] Szene 2 - Story Bild
-- [ ] Transparenter Hintergrund bei Background Sprits fixen
+- [x] Transparenter Hintergrund bei Background Sprits fixen
 - [ ] Kollisionen setzen
+- [ ] Objekte aus Hintergrund entfernen und Aktion in Spiel integrieren (z.B. Müll)
