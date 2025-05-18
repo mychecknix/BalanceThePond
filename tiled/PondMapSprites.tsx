@@ -64,10 +64,10 @@
  <tile id="20">
   <image source="sprites/bg grass light.png" width="16" height="16"/>
  </tile>
- <tile id="21">
-  <image source="sprites/Tree 16x32.png" width="16" height="32"/>
+ <tile id="23">
+  <image source="sprites/Tree1.png" width="32" height="32"/>
  </tile>
- <tile id="22">
-  <image source="sprites/Tree2 32x32.png" width="32" height="32"/>
+ <tile id="24">
+  <image source="sprites/Tree2.png" width="32" height="32"/>
  </tile>
 </tileset>
