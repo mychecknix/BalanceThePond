@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e7679a52-d897-474d-a6e7-f481f1417bde",
+  "name": "StoryMap",
+  "symbol": "bg_storymap",
+  "width": 20,
+  "height": 40,
+  "imageWidth": 160,
+  "imageHeight": 320,
+  "filename": "StoryMap.png",
+  "tileColors": "06320+"
+}

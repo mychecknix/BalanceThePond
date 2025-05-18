@@ -9,7 +9,7 @@
   "y": 30,
   "width": 20,
   "height": 18,
-  "backgroundId": "b88a45cc-5be2-4a62-920a-95d1a881cd74",
+  "backgroundId": "76a77c6d-679c-4e2e-a2f1-cc313be49b97",
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],
@@ -56,29 +56,19 @@
               },
               "y": {
                 "type": "number",
-                "value": 40
+                "value": 41
               },
-              "direction": "up",
+              "direction": "down",
               "fadeSpeed": "4"
             }
           }
         ]
       }
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "13",
-        "value": {
-          "type": "false"
-        }
-      },
-      "id": "5d1a1259-957a-4f81-9d47-57b30ef81475"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00168+",
+  "collisions": "006b+0f!00fc+",
   "playerSpriteSheetId": "d433daeb-aba5-43ab-bf19-61ba2cc2a86c"
 }

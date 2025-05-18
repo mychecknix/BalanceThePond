@@ -33,6 +33,37 @@
         "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
       },
       "id": "5177b82a-d7ca-48d6-b88c-1567971e7ac7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ein Fuchs, der\nwollt auf Reisen\ngeh´n.\nBestieg ein Boot,\nahoi der Seen",
+          "Doch: Warum denn\nnur? Warum macht\nFoxo diese Tour?",
+          "Weg vom Bauer\nsollte ich seine\nHühner meiden mich",
+          "Sie wollen leben\nscharren, picken\nauch im Regen",
+          "Doch ich, ich mag\ndie Hühner nicht\nsie sind unperfekt\n, chaotisch",
+          "Alle nicht dicht!",
+          "Sie laufen immer\ndurcheinander.\nDa frag´ ich mich\ngeht das nicht\ngalanter?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bda52ac7-2caf-43f4-aa19-fc5274e39b66"
     }
   ],
   "playerHit1Script": [],
