@@ -46,7 +46,7 @@
           "Alle nicht dicht!",
           "Sie laufen immer\ndurcheinander.\nDa frag´ ich mich\ngeht das nicht\ngalanter?"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -56,7 +56,7 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": true,
-        "speedIn": -1,
+        "speedIn": 0,
         "speedOut": -1,
         "closeWhen": "key",
         "closeButton": "a",

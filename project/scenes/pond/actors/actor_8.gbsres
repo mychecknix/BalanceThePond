@@ -22,6 +22,13 @@
         "actorId": "$self$"
       },
       "id": "fb35e6b0-9944-4d0d-9bb0-7ed1011df482"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "2de7a27b-e195-4a30-b3d7-eb2da1462a4e"
     }
   ],
   "startScript": [],
