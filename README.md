@@ -10,6 +10,8 @@ Thanks to [Hetzner](https://www.hetzner.com) and [Hochschule Ansbach](https://ww
 
 ## Play
 
+[Play in browser](https://balancethepond.grueb.org/)
+or
 Download the project and GB Studio to run the game.
 
 ## License
